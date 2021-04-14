@@ -1,0 +1,23 @@
+.appointment{
+    background-image: url(./../../.././images/chairBg.png);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    margin-top: 160px;
+    width: 99.2%;
+}
+.appointment-sec::after{
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: #3A4256;  
+    z-index: -5;
+}
+.appointment img{
+    height: 650px;
+    width: 650px;
+    transform: translateY(-150px);
+}

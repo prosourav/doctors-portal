@@ -1,0 +1,8 @@
+.footer{
+    background-image: url('./../../../images/footer-bg.png');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+    /* margin: 40px; */
+}

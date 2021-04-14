@@ -1,0 +1,25 @@
+
+.card{
+    width: 405px;
+    height: 400px;
+}
+.backGroundColor{
+    background-image: url('./../../../images/quote.png');
+    background-size:400px;
+    background-repeat: no-repeat;
+    color: black;
+}
+.sec-1{
+    position: relative;
+}
+.backGroundColor::before{
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color:aqua;  
+    opacity: .2;
+    /* z-index: 5; */
+}
